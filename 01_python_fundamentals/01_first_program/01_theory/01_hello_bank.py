@@ -1,0 +1,11 @@
+# Banking terminal interface
+print()
+print("          =============================================")
+print("                      AEGIS SOVEREIGN BANK             ")
+print("          =============================================")
+print("            Account ID:       96832568                 ")
+print("            Account Holder:   Valery Sucre             ")
+print("            Account Number:   ACC-9895-7724            ")
+print("            Account Balance:  $ 999,536,987.00 USD     ")
+print("          =============================================")
+print()
