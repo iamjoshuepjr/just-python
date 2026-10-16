@@ -27,15 +27,13 @@ account_mask = "*******0000"
 
 # 3. Defining using triple quotes ("""") for multiline blocks (legal disclaimer)
 terms_and_conditions = """ 
-
-======================================================
-               TERMS AND CONDITIONS
-======================================================
-1. Minimum balance requirement: $100.00 USD
-2. Daily ATM withdrawal limit:  $2,000.00 USD
-3. Unauthorized transactions must be reported 
-   within 24 hours of occurrence
-4. We are the best Bank in the world around. 
+                      TERMS AND CONDITIONS
+        
+         1. Minimum balance requirement: $1,990.00 USD
+         2. Daily ATM withdrawal limit:  $199,999.00 USD
+         3. Unauthorized transactions must be reported 
+            within 24 hours of occurrence
+         4. We are the best Bank in the world around. 
 """
 legal_disclaimer = """
                AEGIS SOVEREING BANK AND AGS WALLET
@@ -46,9 +44,9 @@ legal_disclaimer = """
 # Structured console output (simulating the ATM receipt)
 print()
 print("      =============================================================")
-print("                  OPERATION RECORD                 ")
+print("                         OPERATION RECORD                 ")
 print("      =============================================================")
-print("               AUTOMATED TELLER MACHINE            ")
+print("                      AUTOMATED TELLER MACHINE            ")
 print("      =============================================================")
 print("        ATM         DATE      TIME   TRANS  CODE    ")
 print(f"       {atm_id}   16/10/26   17:03   1388  {transaction_code}")
@@ -62,5 +60,7 @@ print("               AMOUNT:             $***45,985.00 USD")
 print("               AVAILABLE BALANCE:  $***963,895.45 USD")
 print("      -------------------------------------------------------------")
 print(legal_disclaimer)
+print("      -------------------------------------------------------------")
+print(terms_and_conditions)
 print("      =============================================================")
 print()
